@@ -1,0 +1,54 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+{{ form_start(form) }}
+{#<div class="form-group mb-lg">#}
+{#    <label for="usuario_identificacionRel">Tipo documento:</label>#}
+{#    {{ form_widget(form.identificacionRel) }}#}
+{#</div>#}
+{#<div class="form-group mb-lg">#}
+{#    <label for="usuario_numeroIdentificacion">Número identificación</label>#}
+{#    {{ form_widget(form.numeroIdentificacion, { 'attr': {'class':'soloNumeros'} }) }}#}
+{#</div>#}
+{#<div class="form-group mb-lg">#}
+{#    <label for="usuario_correo">Correo</label>#}
+{#    {{ form_widget(form.correo) }}#}
+{#</div>#}
+{#<div class="form-group mb-none">#}
+{#    <div class="row">#}
+{#        <div class="col-sm-6 mb-lg">#}
+{#            <label for="usuario_nombres">Nombre(s)</label>#}
+{#            {{ form_widget(form.nombres) }}#}
+{#        </div>#}
+{#        <div class="col-sm-6 mb-lg">#}
+{#            <label for="usuario_apellidos">Apellidos</label>#}
+{#            {{ form_widget(form.apellidos) }}#}
+{#        </div>#}
+{#    </div>#}
+{#</div>#}
+{#<div class="form-group mb-lg">#}
+{#    <label for="txtNitEmpresa">Nit empresa:</label>#}
+{#    <input name="txtNitEmpresa" type="number" class="form-control form-control"#}
+{#           value="{{ nitEmpresa }}"/>#}
+{#    <span class="help-block">#}
+{#                        Recomendaciones:#}
+{#                        <ul>#}
+{#                            <li>El NIT se debe diligenciar sin signos de puntuación y sin dígito de verificación</li>#}
+{#                        </ul>#}
+{#                    </span>#}
+{#</div> #}
+{#<div class="row">#}
+{#    <div class="col-xl-12 col-sm-8 mt-2">#}
+{#        <div class="checkbox-custom checkbox-default">#}
+{#            <input id="chkTerminosCondiciones" name="chkTerminosCondiciones" type="checkbox">#}
+{#            <label for="AgreeTerms">Acepto <a href="{{ path('terminoscondiciones') }}"#}
+{#                                              title="conocer terminos y condiciones" target="_blank">condiciones#}
+{#                    de uso</a></label>#}
+{#        </div>#}
+{#    </div>#}
+{#    <div class="col-xl-12 col-sm-4 text-right mt-2">#}
+{#        {{ form_widget(form.btnGuardar) }}#}
+{#    </div>#}
+    {#    </div>#}
+{{ form_end(form) }}
+
+{% endblock %}
