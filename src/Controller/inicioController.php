@@ -13,6 +13,7 @@ class inicioController extends AbstractController
      */
     public function inicio(Request $request)
     {
+        echo("asd");
         return $this->render('Inicio/admin.html.twig');
     }
 }
